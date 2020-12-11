@@ -1,0 +1,47 @@
+.impo-links{
+    align-items: center;
+    li{
+        font-size: 40px;
+        border-radius: 50%;
+        cursor: pointer;
+        &:hover{
+            transition: all 0.8s;
+            transform: scale(1.2) rotateY(360deg);
+            
+        }
+    }
+}
+.face{
+    color: rgb(14,142,241);
+}
+.inst{
+    background-image: linear-gradient(to right, #fdc468, #df4996);
+    color: white;
+    border-radius: 50%;
+    padding: 4px;
+}
+.twit{
+    color: #1DA1F2;
+}
+.gith{
+    color: var(--mainText);
+    
+}
+.frmon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: relative;
+    border: 1px solid rgb(14,142,241);
+    img{
+        width: 100%;
+        border-radius: 50%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+}
+#headinfo{
+    color: var(--mainText); 
+}
+@import '../../AboutComponent/PersonalInfoCard/PersonalInfoCard.scss';

@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "title": "Article preview component",
+        "langs": ["HTML","CSS","JS"],
+        "path": "@assets/project1.jpg"
+        
+    },
+    {
+        "id": 2,
+        "title": "Chat app css illustration",
+        "langs": ["HTML","CSS"],
+        "path": "@assets/project2.jpg"
+        
+    },
+    {
+        "id": 3,
+        "title": "Social media dashboard with theme switcher",
+        "langs": ["HTML","CSS","JS"],
+        "path": "@assets/project3.jpg"
+        
+    },
+    {
+        "id": 4,
+        "title": "Clipboard landing page",
+        "langs": ["HTML","CSS"],
+        "path": "@assets/project4.jpg"
+        
+    },
+    {
+        "id": 5,
+        "title": "Coding bootcamp testimonials slider",
+        "langs": ["HTML","CSS","JS"],
+        "path": "@assets/project5.jpg"
+        
+    },
+    {
+        "id": 6,
+        "title": "Room homepage",
+        "langs": ["HTML","CSS","JS"],
+        "path": "@assets/project6.jpg"
+        
+    },
+    {
+        "id": 7,
+        "title": "Social proof section",
+        "langs": ["HTML","CSS"],
+        "path": "@assets/project7.jpg"
+        
+    },
+    {
+        "id": 8,
+        "title": "Testimonials grid section",
+        "langs": ["HTML","CSS"],
+        "path": "@assets/project8.jpg"
+        
+    }
+]

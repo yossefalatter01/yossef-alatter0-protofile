@@ -1,0 +1,22 @@
+.squarooo{
+    width: 55px;
+    height: 55px;
+    padding: 7.5px;
+    background-color: #000000;
+    border-radius: 7px;
+    animation-name: rounding;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    .mystar{
+        background : white ;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        border-radius: 50%;
+        font-size: 15px;
+    }
+}
+.staroo{
+    color: var(--mainColor);
+}

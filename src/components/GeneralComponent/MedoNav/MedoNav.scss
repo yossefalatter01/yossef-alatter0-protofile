@@ -1,0 +1,37 @@
+.nav-menu{
+    ul{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--backgroundColor);
+        margin-bottom: 0;
+
+        li{
+            width: 50%;
+            margin: auto;
+            
+            margin-bottom: 15px;
+            margin-top: 0;
+            border-radius: 7px;
+            background-color: var(--mainColor);
+            div{
+                padding: 25px 20px;
+                cursor: pointer;
+            }
+            .ggg{
+                margin-bottom: 0;
+            }
+           .boco{
+            font-size: 25px;
+            color: white;
+            margin-bottom: 5px;
+           }
+            p{
+                color: white;
+                margin: 0;
+            }
+        }
+    }
+}

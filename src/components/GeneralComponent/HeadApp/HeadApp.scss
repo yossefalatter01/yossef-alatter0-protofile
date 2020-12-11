@@ -1,0 +1,102 @@
+.squar {
+    width: 70px;
+    z-index: 5;
+    height: 70px;
+    animation-name: rounding;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    position: absolute;
+    
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    .circle {
+      width: 100%;
+      height: 100%;
+      line-height: 50px;
+      font-size: 25px;
+      color:var(--mainColor);
+      
+    }
+  }
+  .open{
+    overflow: hidden;
+    animation-name: openNav;
+    animation-duration: 1s;
+    animation-direction: backwards;
+    animation-fill-mode: both;
+     animation-timing-function: ease-in-out;
+    
+  }
+  .closee{
+    overflow: hidden;
+    animation-name: closeNav;
+    animation-duration: 1.1s;
+    animation-direction: backwards;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
+  }
+  @keyframes openNav {
+    from {width:0;visibility: hidden;opacity:0;}
+    to {width: 100%;visibility: visible;opacity:1;}
+  }
+  @keyframes closeNav {
+    from {width:100%;visibility: visible;opacity:1;}
+    to {width: 0;visibility: hidden;opacity:0;}
+  }
+  @keyframes rounding {
+    from {
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  .navo{
+    border-radius: 10px;
+    position: relative;
+    margin-top: 30px;
+    .mydrop{
+      background-color: var(--cardbgColor);
+      padding-top: 15px;
+      padding-left: 75px;
+      padding-bottom: 15px;
+      margin: 0;
+      // width: 0;
+      // transform: scaleX(0);
+      transform-origin: left;
+      // width:0;
+      // visibility: hidden;
+      // opacity:0;
+      display: none;
+      li{
+        a{
+          display: flex;
+          text-transform: uppercase;
+          text-decoration: none;
+          font-size: 15px;
+          font-weight: 500;
+          color: var(--mainText);
+          &:hover{
+            color:var(--mainColor);
+            transition: all 0.3s;
+            &__o{
+              color:var(--mainColor);
+            }
+          }
+          &.router-link-exact-active {
+            color:var(--mainColor);
+            &__o{
+              color:var(--mainColor);
+            }
+
+      }
+      span{
+          font-size: 13px;
+          margin-right: 4px;
+          // color: var(--mainColor); 
+        }
+      }
+      }
+    }
+  }

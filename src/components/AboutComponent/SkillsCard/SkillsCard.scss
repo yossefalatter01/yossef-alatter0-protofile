@@ -1,0 +1,39 @@
+.bg-boot{
+    background-color: rgb(86,61,124);
+}
+.text-boot{
+    color: rgb(86,61,124);
+}
+.bg-sass{
+    background-color: rgb(207,100,154);
+}
+.text-scss{
+    color:  rgb(207,100,154);
+}
+$speroMap: (1:"rgb(225,85,98)",2:"rgb(23,162,184)",3:"rgb(255,212,84)",4:"rgb(86,61,124)",5:"rgb(207,100,154)",6:"rgb(40,167,69)");
+@each $num ,$color in $speroMap {
+    .spero#{$num}{
+        position: relative;
+        &::after{
+        content: "";
+            position: absolute;
+            top: 4.5px;
+            left: 0;
+            border: 1px solid #{$color};
+            height: 13px;
+            width: 18px;
+            border-radius: 263px;
+            background-color: transparent;
+            animation-name: rounding;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+    }
+}
+#skillhead{
+    color: var(--mainText);
+}
+.progress{
+   background-color: var(--progressColor); 
+}

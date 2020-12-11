@@ -1,0 +1,125 @@
+.bone {
+    position: relative;
+    padding-bottom: 7px;
+    font-size: 16px;
+    letter-spacing: 4px;
+    &::before {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      width: 130px;
+      left: 0;
+      height: 2px;
+      background-color: var(--mainColor);
+      border-radius: 100px;
+    }
+  }
+  .coko {
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+  }
+  .line {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: -9px;
+    width: 4px;
+    height: 100%;
+    background-color: var(--mainColor);
+  }
+  .titlee {
+    text-transform: capitalize;
+    letter-spacing: 1.5px;
+    word-spacing: 3px;
+    line-height: 1.5;
+    font-size: 15px;
+  }
+  @keyframes toto {
+    from {
+      bottom: 262px;
+      height: 0;
+    }
+    to {
+      bottom: 0;
+      height: 100%;
+    }
+  }
+  @keyframes roro {
+    from {
+      transform: rotateY(360deg);
+    }
+    from {
+      transform: rotateY(180deg);
+    }
+  }
+  .togglee {
+    position: relative;
+    overflow: hidden;
+    &:hover {
+      // animation-name: roro;
+      animation-duration: 1s;
+      animation-direction: backwards;
+      animation-fill-mode: both;
+      .bbo {
+        animation-name: toto;
+        animation-duration: 0.8s;
+        animation-timing-function: ease-in-out;
+        animation-direction: backwards;
+        animation-fill-mode: both;
+      }
+    }
+    .bbo {
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      // bottom: 0;
+      height: 0;
+      background-color: rgba(0, 0, 0, 0.541);
+      overflow: hidden;
+  
+      // z-index: -99;
+    }
+  }
+  .bbo-info {
+    color: white;
+    margin-top: 65px;
+    padding: 10px;
+  }
+  .bto {
+    width: 100px;
+  }
+  .htmc{
+    color: #6abecd;
+    font-weight: 450;
+  }
+  .cssc{
+    color: rgb(62,84,163);
+    font-weight: 450;
+  }
+  .jsc{
+    color:rgb(225,55,132);
+    font-weight: 450;
+  }
+  
+  @media screen and (max-width: 990px){
+    .hgho{
+      display: none;
+    }
+    .hehe{
+      min-width: 100%;
+      height: auto;
+    }
+  }
+  @media screen and (min-width: 990px){
+    .hgho{
+      display: block;
+    }
+    .hhee{
+      height: 73px;
+    }
+  }
+  #protofilehead{
+    color: var(--mainText);
+  }

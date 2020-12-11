@@ -1,0 +1,28 @@
+body{
+    background-color: var(--backgroundColor);
+}
+p{
+    color: var(--subText);
+    font-family: sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --mainColor: rgb(0, 123, 255);
+    --mainText: black ;
+    --subText: rgba(77, 77, 77, 0.514);
+    --cardbgColor: white;
+    --backgroundColor: rgb(248,250,247);
+    --photoColor: white;
+    --progressColor: rgb(233,236,239);
+    --borderColor: rgb(223,223,223)
+}
+.card{
+    background-color: var(--cardbgColor);
+}
+.border-color{
+ border-color: rgb(223,223,223);
+}
